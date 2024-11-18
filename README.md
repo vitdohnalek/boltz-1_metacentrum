@@ -28,6 +28,9 @@ pip install boltz --user
 Follow these commands to run boltz-1 on metacentrum:
 
 ```bash
+# Example of command to run interactive environment for boltz-1
+qsub -I -l walltime=4:0:0 -q gpu@pbs-m1.metacentrum.cz -l select=1:ncpus=1:ngpus=1:mem=20gb:scratch_local=10gb
+
 # Add mambaforge to your module path
 module add mambaforge
 
