@@ -39,4 +39,7 @@ mamba activate /storage/{CITY}/home/{USER}/boltz
 
 # Set PYTHONPATH to ensure the right version of python and its packages are used
 export PYTHONPATH=/storage/{CITY}/home/{USER}/boltz/lib/python3.10/site-packages/
+
+# Run boltz-1
+boltz predict {FASTA FILE}
 ```
